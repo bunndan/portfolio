@@ -26,7 +26,6 @@ const projects: Project[] = [
     description:
       'Developed and deployed Doki Dash solo using GameMaker Studio, handling coding, artwork, sound design, and game mechanics. Demonstrated problem-solving, rapid prototyping, and clean coding under tight deadlines, showcasing versatility and strong work ethic in both technical and creative tasks.',
     demoUrl: 'https://bunndan.itch.io/dokidash',
-    repoUrl: 'https://github.com/bunndan/Dokibird-Game-Jam',
     imageUrl: '/portfolio/dokidash.png', // Example image
   },
   // Add other projects here
