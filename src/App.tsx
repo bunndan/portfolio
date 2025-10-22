@@ -19,17 +19,17 @@ const App: React.FC = () => {
             <About />
           </Box>
         </Fade>
+        <Fade in={true} timeout={800} style={{ transitionDelay: '500ms' }}>
+          <Box sx={{ mb: 6 }}>
+            <Projects />
+          </Box>
+        </Fade>
         <Box sx={{ mb: 6 }}>
           <TechStack /> {/* Add TechStack here */}
         </Box>
         <Fade in={true} timeout={800} style={{ transitionDelay: '300ms' }}>
           <Box sx={{ mb: 6 }}>
             <WorkHistory />
-          </Box>
-        </Fade>
-        <Fade in={true} timeout={800} style={{ transitionDelay: '500ms' }}>
-          <Box sx={{ mb: 6 }}>
-            <Projects />
           </Box>
         </Fade>
         <Fade in={true} timeout={800} style={{ transitionDelay: '700ms' }}>

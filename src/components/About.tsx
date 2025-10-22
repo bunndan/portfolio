@@ -13,15 +13,16 @@ const About: React.FC = () => {
       }}
     >
       <Box
+        id="about"
         sx={{
           display: 'flex',
           alignItems: 'center',
           mb: 4,
         }}
       >
-        {/* <Avatar
-          alt="Your Name"
-          src="/path-to-your-photo.jpg"
+        {<Avatar
+          alt="Brandon Ma"
+          src="/portfolio/photo.jpg"
           sx={{
             width: 96,
             height: 96,
@@ -29,7 +30,7 @@ const About: React.FC = () => {
             border: '3px solid',
             borderColor: 'primary.main',
           }}
-        /> */}
+        />}
         <Typography
           variant="h4"
           component="h2"
@@ -39,7 +40,7 @@ const About: React.FC = () => {
             letterSpacing: 1,
           }}
         >
-          About Me
+          It's me, Brandon!
         </Typography>
       </Box>
 
@@ -53,7 +54,11 @@ const About: React.FC = () => {
           letterSpacing: '0.02em',
         }}
       >
-        Experienced software developer with a strong education background, seeking to refocus my career in tech and contribute effectively as a developer.
+        Hey there! I’m a software developer with 7 years of experience in the tech world, and I specialize in full-stack engineering. Over the years, I’ve built a wide range of skills, working with technologies like Java, JavaScript, React, TypeScript, and more.
+        <br /><br />
+        Along the way, I had the amazing opportunity to teach abroad, where I designed interactive lessons and helped students with projects using tools like Unity and Arduino. That experience really sharpened my communication skills, taught me how to collaborate with diverse teams, and gave me a fresh perspective on tackling challenges, skills that are super helpful in software development.
+        <br /><br />
+        These days, I’m diving deeper into full-stack engineering, combining my technical know-how with my love for creating intuitive, user-friendly applications. I’m always excited to learn new things and build solutions that make a difference!
       </Typography>
     </Paper>
   );

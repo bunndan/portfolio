@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Contact: React.FC = () => {
   return (
     <Box
+      id="contact"
       component="section"
       sx={{
         mt: 6,
@@ -27,16 +28,7 @@ const Contact: React.FC = () => {
         sx={{ fontSize: 18 }}
       >
         <Link
-          href="mailto:your.email@example.com"
-          underline="hover"
-          color="inherit"
-          sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-        >
-          <EmailIcon /> your.email@example.com
-        </Link>
-
-        <Link
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/brandonyma/"
           target="_blank"
           rel="noopener noreferrer"
           underline="hover"
@@ -47,7 +39,7 @@ const Contact: React.FC = () => {
         </Link>
 
         <Link
-          href="https://github.com/yourusername"
+          href="https://github.com/bunndan/"
           target="_blank"
           rel="noopener noreferrer"
           underline="hover"

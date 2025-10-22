@@ -34,7 +34,7 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <Box>
+    <Box id="projects">
       <Typography variant="h4" component="h2" sx={{ mb: 4, fontWeight: 'bold' }}>
         Projects
       </Typography>
