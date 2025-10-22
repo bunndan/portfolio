@@ -10,7 +10,7 @@ export const projects: Project[] = [
     title: 'Portfolio Website',
     description: 'A personal portfolio website built with React and Typescript.',
     techStack: ['React', 'Typescript', 'CSS'],
-    link: 'https://github.com/yourusername/portfolio',
+    link: 'https://github.com/bunndan/portfolio',
   },
   {
     title: 'Task Manager App',
