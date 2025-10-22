@@ -14,27 +14,98 @@ const jobs: Job[] = [
   {
     company: 'Tokyo Board of Education',
     position: 'High School Teacher',
-    startDate: 'Mar 2018',
-    endDate: 'Dec 2021',
+    startDate: 'Nov 2021',
+    endDate: 'Aug 2024',
     details: [
       'Designed interactive lessons on grammar, vocab, and communication.',
       'Supported Unity projects, including apps with Google Maps and data tools.',
       'Co-led Electronics Club, teaching Arduino robots and programming basics.'
     ],
-    logo: '/boe.png'
+    logo: '/tokyoboe.jpg'
   },
   {
-    company: 'Another Company',
-    position: 'Software Developer Intern',
-    startDate: 'Jun 2017',
-    endDate: 'Aug 2017',
+    company: 'Paymentus',
+    position: 'Full Stack Engineer',
+    startDate: 'Apr 2019',
+    endDate: 'Nov 2021',
     details: [
-      'Assisted in developing internal tools with Python and Django.',
-      'Improved code quality through unit tests and code reviews.',
+      'Collaborated on SAAS billing features, aligning with market and customer needs.',
+      'Integrated 3+ POS devices annually, ensuring seamless web app communication.',
+      'Developed NodeJS microservices for payment data processing, improving speed.',
     ],
-    logo: '/boe.png'
+    logo: '/paymentus.jpg'
   },
-  // Add more jobs as needed
+  {
+    company: 'Precima',
+    position: 'Full Stack Developer',
+    startDate: 'Oct 2016',
+    endDate: 'Apr 2019',
+    details: [
+      'Led development of a user management tool, reducing task time from days to hours.',
+      'Integrated a user support system, syncing with training docs to improve access.',
+      'Mentored Precima’s co-op initiative, guiding onboarding, reviews, and events.',
+    ],
+    logo: '/precima.jpg'
+  },
+  {
+    company: 'Mount Sinai Hospital ',
+    position: 'Research and Development Developer (Co-op)',
+    startDate: 'May 2014',
+    endDate: 'Aug 2014',
+    details: [
+      'Built a PHR app, enabling patients to securely manage their health data.',
+      'Researched architectures and collaborated to enhance functionality and design.',
+    ],
+    logo: '/mountsinai.jpg'
+  },
+  {
+    company: 'Pitney Bowes',
+    position: 'Security Developer (Co-op)',
+    startDate: 'Aug 2013',
+    endDate: 'Dec 2013',
+    details: [
+      'Designed a browser extension to encrypt web request data using PIR.',
+      'Developed Android apps with cryptography protocols for secure data exchange.',
+      'Wrote proposals and detailed documentation for project development and testing.',
+    ],
+    logo: '/pitneybowes.jpg'
+  },
+  {
+    company: 'N-Dimension Solutions',
+    position: 'Cybersecurity Developer (Co-op)',
+    startDate: 'Jan 2013',
+    endDate: 'Apr 2013',
+    details: [
+      'Developed an automation system for regression testing of security software in Java.',
+      'Created test cases for data transmission using packet analyzers in Linux.',
+      'Gained expertise in Selenium IDE for testing web and SSH network protocols.',
+    ],
+    logo: '/ndimension.jpg'
+  },
+  {
+    company: 'Massive Damage Inc.',
+    position: 'PHP Web Developer (Co-op)',
+    startDate: 'May 2012',
+    endDate: 'Aug 2012',
+    details: [
+      'Developed an admin tool for analyzing player data and fixing corrupted data.',
+      'Integrated Google Maps API for interactive data display within admin tools.',
+      'Created customizable profile pages with social media integration.',
+    ],
+    logo: '/massivedamage.jpg'
+  },
+  {
+    company: 'Trend Hunter',
+    position: 'Web Developer (Co-op)',
+    startDate: 'Jan 2011',
+    endDate: 'Dec 2011',
+    details: [
+      'Developed a custom platform for corporate clients using PHP, HTML, jQuery, and ExpressionEngine CMS.',
+      'Built a fast-loading image carousel using AJAX and jQuery under tight deadlines.',
+      'Designed a metrics system to analyze and track user-submitted content.',
+    ],
+    logo: '/trendhunter.jpg'
+  },
 ];
 
 const WorkHistory: React.FC = () => {

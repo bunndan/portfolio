@@ -1,47 +1,3 @@
-// import React from 'react';
-
-// const About: React.FC = () => {
-//   return (
-//     <section id="about" style={{ padding: '2rem' }}>
-//       <h2>About Me</h2>
-//       <p>
-//         Experienced software developer with a strong education background, seeking to refocus my career in tech and contribute effectively as a developer.
-//       </p>
-//     </section>
-//   );
-// };
-
-// export default About;
-
-// import React from 'react';
-// import { Box, Typography, Avatar, Paper } from '@mui/material';
-
-// const About: React.FC = () => {
-//   return (
-//     <Paper elevation={3} sx={{ p: 4, borderRadius: 2 }}>
-//       <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-//         {/* Optional: Your photo or avatar */}
-//         <Avatar
-//           alt="Your Name"
-//           src="/path-to-your-photo.jpg" // Replace with your image path or remove if none
-//           sx={{ width: 80, height: 80, mr: 3 }}
-//         />
-//         <Typography variant="h4" component="h2" sx={{ fontWeight: 'bold' }}>
-//           About Me
-//         </Typography>
-//       </Box>
-//       <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.6 }}>
-//         {/* Replace this text with your bio/introduction */}
-//         I am a passionate full-stack developer with experience in React, TypeScript, and Material UI. 
-//         I enjoy building user-friendly, performant web applications that solve real-world problems.
-//       </Typography>
-//     </Paper>
-//   );
-// };
-
-// export default About;
-
-
 import React from 'react';
 import { Box, Typography, Avatar, Paper } from '@mui/material';
 
@@ -63,7 +19,7 @@ const About: React.FC = () => {
           mb: 4,
         }}
       >
-        <Avatar
+        {/* <Avatar
           alt="Your Name"
           src="/path-to-your-photo.jpg"
           sx={{
@@ -73,7 +29,7 @@ const About: React.FC = () => {
             border: '3px solid',
             borderColor: 'primary.main',
           }}
-        />
+        /> */}
         <Typography
           variant="h4"
           component="h2"
@@ -97,8 +53,7 @@ const About: React.FC = () => {
           letterSpacing: '0.02em',
         }}
       >
-        I am a passionate full-stack developer with experience in React, TypeScript, and Material UI. 
-        I enjoy building user-friendly, performant web applications that solve real-world problems.
+        Experienced software developer with a strong education background, seeking to refocus my career in tech and contribute effectively as a developer.
       </Typography>
     </Paper>
   );
